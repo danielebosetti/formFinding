@@ -1,0 +1,13 @@
+LOADCASEID    ALPHA_COEFFICIENT    LOADCASE_NAME
+         2                1.5    "g1_dead"
+         3                  0    "g2_sdl"
+         4                  1    "p0c_IR_ridge"
+         5                  1    "p0c_IR_valley"
+         6                  1    "p0c_garage"
+         7                  1    "p0c_belt"
+         8                  1    "p0m"
+         9                  0    "FF_REAZ_V"
+        10                  0    "FF_FORCE_DENSITY"
+        11                  0    "q1_sand"
+        12                  0    "qwk_01_down"
+        13                  0    "qwk_02_up"

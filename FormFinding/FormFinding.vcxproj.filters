@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione\Model_Items">
+      <UniqueIdentifier>{f2cdb7f1-df4f-423e-b458-4c991300aa11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Input_Ouput">
+      <UniqueIdentifier>{bdd48dda-f661-4846-a1f2-0b270edd473a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\Input_Output">
+      <UniqueIdentifier>{7391f96e-f974-44e2-915c-cbe8860eb85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\Model_Items">
+      <UniqueIdentifier>{78445319-6c79-4aa3-b35e-711289078154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\Model-Management">
+      <UniqueIdentifier>{94e636a6-ab94-4b4c-bd74-9eb82bb47a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Model-Management">
+      <UniqueIdentifier>{7af60cd9-2982-40c9-affc-de9848d34bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\View-Management">
+      <UniqueIdentifier>{a83851a5-bab4-4ed8-a7b4-dcd19b36417b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\View-Management">
+      <UniqueIdentifier>{4908105a-c5b1-4bf7-a4a6-bdacb29f9e3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\Solvers">
+      <UniqueIdentifier>{5537e580-f911-4390-8f49-b3824ea92d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Application-Management">
+      <UniqueIdentifier>{beff9dbe-464a-42d6-9e3c-3db63dc063e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\Application-Management">
+      <UniqueIdentifier>{64b33588-5fe2-4dd6-ade2-fe533015e3ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{14eb8410-f925-4eaa-9e87-b280aab0a519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Misc">
+      <UniqueIdentifier>{84e81b40-ec37-4433-af83-35dd3ec139d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Beam.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="BeamProperty.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="BmAngle.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="BmDistLoadG.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="BmPreLoad.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="BmEndRelease.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="BmDistLoadL.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="FreedomCase.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="PlPressure.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="PlPreLoad.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="PlPatchType.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="PlGlobalLoad.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="PlateProperty.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Plate.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="PlAngle.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadCase.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadCaseCombination.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadPattern.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelExporter.cpp">
+      <Filter>File di origine\Input_Output</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>File di origine\Input_Output</Filter>
+    </ClCompile>
+    <ClCompile Include="NdForce.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="NdMoment.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="NdTemp.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordSys.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Restraint.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="PlShear.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="appSettings.cpp">
+      <Filter>File di origine\Application-Management</Filter>
+    </ClCompile>
+    <ClCompile Include="boolFunctions.cpp">
+      <Filter>File di origine\Model-Management</Filter>
+    </ClCompile>
+    <ClCompile Include="computeSingleForceNext.cpp">
+      <Filter>File di origine\Model-Management</Filter>
+    </ClCompile>
+    <ClCompile Include="fileLoader.cpp">
+      <Filter>File di origine\Input_Output</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphSplit.cpp">
+      <Filter>File di origine\Model-Management</Filter>
+    </ClCompile>
+    <ClCompile Include="group.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="load_attributes.cpp">
+      <Filter>File di origine\Input_Output</Filter>
+    </ClCompile>
+    <ClCompile Include="INI_io.cpp">
+      <Filter>File di origine\Input_Output</Filter>
+    </ClCompile>
+    <ClCompile Include="exportModel.cpp">
+      <Filter>File di origine\Input_Output</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>File di origine\Model-Management</Filter>
+    </ClCompile>
+    <ClCompile Include="FormFindingDataSet.cpp">
+      <Filter>File di origine\Model-Management</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkModel.cpp">
+      <Filter>File di origine\Model-Management</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidGroup.cpp">
+      <Filter>File di origine\Model-Management</Filter>
+    </ClCompile>
+    <ClCompile Include="node.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>File di origine\Model_Items</Filter>
+    </ClCompile>
+    <ClCompile Include="workModel_Init.cpp">
+      <Filter>File di origine\Model-Management</Filter>
+    </ClCompile>
+    <ClCompile Include="workModel_optimizeForce.cpp">
+      <Filter>File di origine\Model-Management</Filter>
+    </ClCompile>
+    <ClCompile Include="workModel_Recompute.cpp">
+      <Filter>File di origine\Model-Management</Filter>
+    </ClCompile>
+    <ClCompile Include="workModel_Structure.cpp">
+      <Filter>File di origine\Model-Management</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="utilCode.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelRenderer.cpp">
+      <Filter>File di origine\View-Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>File di origine\Application-Management</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>File di origine\Application-Management</Filter>
+    </ClCompile>
+    <ClCompile Include="ForceDensitySolver.cpp">
+      <Filter>File di origine\Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="ForceDensity_plates_converter.cpp">
+      <Filter>File di origine\Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="Straus_Constants.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="Linear_Solver.cpp">
+      <Filter>File di origine\Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="Model_Reduced.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelExporter_Reduced.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader_Reduced.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="Flattening_Solver.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Beam.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="BeamProperty.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="BmAngle.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="BmDistLoadG.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="BmDistLoadL.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="BmEndRelease.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="BmPreLoad.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadCase.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadPattern.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadCaseCombination.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="NdTemp.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="NdForce.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="NdMoment.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordSys.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="fileLoader.h">
+      <Filter>File di intestazione\Input_Ouput</Filter>
+    </ClInclude>
+    <ClInclude Include="FreedomCase.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="group.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelExporter.h">
+      <Filter>File di intestazione\Input_Ouput</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="PlAngle.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Plate.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="PlateProperty.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="PlGlobalLoad.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="PlPatchType.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="PlPreLoad.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="PlPressure.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="PlShear.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>File di intestazione\Input_Ouput</Filter>
+    </ClInclude>
+    <ClInclude Include="Restraint.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkModel.h">
+      <Filter>File di intestazione\Model-Management</Filter>
+    </ClInclude>
+    <ClInclude Include="utilCode.h">
+      <Filter>File di intestazione\Model-Management</Filter>
+    </ClInclude>
+    <ClInclude Include="appSettings.h">
+      <Filter>File di intestazione\Application-Management</Filter>
+    </ClInclude>
+    <ClInclude Include="FormFindingDataSet.h">
+      <Filter>File di intestazione\Model-Management</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphSplit.h">
+      <Filter>File di intestazione\Model-Management</Filter>
+    </ClInclude>
+    <ClInclude Include="INI_io.h">
+      <Filter>File di intestazione\Input_Ouput</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>File di intestazione\Model-Management</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRenderer.h">
+      <Filter>File di intestazione\View-Management</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidGroup.h">
+      <Filter>File di intestazione\Model-Management</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>File di intestazione\Application-Management</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadCaseCombinationItem.h">
+      <Filter>File di intestazione\Model_Items</Filter>
+    </ClInclude>
+    <ClInclude Include="BoolFunctions.h">
+      <Filter>File di intestazione\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTypesDef.h">
+      <Filter>File di intestazione\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelItemsDeclare.h">
+      <Filter>File di intestazione\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelItemsForwardDeclare.h">
+      <Filter>File di intestazione\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedFunctions.h">
+      <Filter>File di intestazione\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedVariables.h">
+      <Filter>File di intestazione\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceDensitySolver.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>File di intestazione\View-Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Straus_Constants.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="Linear_Solver.h">
+      <Filter>File di origine\Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Flattening_Solver.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="Model_Reduced.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelExporter_Reduced.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader_Reduced.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <Filter>Misc</Filter>
+    </None>
+  </ItemGroup>
+</Project>
